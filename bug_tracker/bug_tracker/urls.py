@@ -16,7 +16,9 @@ Including another URLconf
 from django.urls import path
 from . import views
 
+version = 'api/v1'
+
 urlpatterns = [
-    path('', views.index, name='index'),
-    path('**', views.index, name='index')
+    path(version + '/employee',
+         views.employee_by_id, name='employee_by_id')
 ]
