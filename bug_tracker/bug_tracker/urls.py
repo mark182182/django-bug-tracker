@@ -26,5 +26,9 @@ urlpatterns = [
     path(version + '/bug',
          views.bug, name='bug'),
     path(version + '/bugs',
-         views.bugs, name='bugs')
+         views.bugs, name='bugs'),
+    path(version + '/discussion',
+         views.discussion, name='discussion'),
+    path(version + '/discussions',
+         views.discussions, name='discussion')
 ]
