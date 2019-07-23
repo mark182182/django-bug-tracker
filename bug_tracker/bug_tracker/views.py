@@ -11,3 +11,7 @@ def employee_by_id(request):
     employee = EmployeeRepo.get_employee_by_id(
         json.loads(request.body)['employee_id'])
     return JsonResponse(employee)
+
+
+def employees(request):
+    return JsonResponse(dict(employees=list(EmployeeRepo.get_employees())))

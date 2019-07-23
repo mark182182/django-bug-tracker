@@ -20,5 +20,9 @@ version = 'api/v1'
 
 urlpatterns = [
     path(version + '/employee',
+         views.employee_by_id, name='employee_by_id'),
+    path(version + '/employees',
+         views.employees, name='employees'),
+    path(version + '/employee',
          views.employee_by_id, name='employee_by_id')
 ]
