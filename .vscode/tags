@@ -1,0 +1,124 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/3fdf28bc/
+0001_initial.py	../bug_tracker/bug_tracker/migrations/0001_initial.py	1;"	kind:file	line:1
+0002_auto_20190830_1349.py	../bug_tracker/bug_tracker/migrations/0002_auto_20190830_1349.py	1;"	kind:file	line:1
+0003_auto_20190830_1352.py	../bug_tracker/bug_tracker/migrations/0003_auto_20190830_1352.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	../bug_tracker/bug_tracker/settings.py	/^ALLOWED_HOSTS = [$/;"	kind:variable	line:30
+AUTH_PASSWORD_VALIDATORS	../bug_tracker/bug_tracker/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:95
+BASE_DIR	../bug_tracker/bug_tracker/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:18
+Bug	../bug_tracker/bug_tracker/models.py	/^class Bug(models.Model):$/;"	kind:class	line:4
+BugRepo	../bug_tracker/bug_tracker/repos/bug.py	/^class BugRepo():$/;"	kind:class	line:6
+CORS_ORIGIN_ALLOW_ALL	../bug_tracker/bug_tracker/settings.py	/^CORS_ORIGIN_ALLOW_ALL = False$/;"	kind:variable	line:130
+CORS_ORIGIN_WHITELIST	../bug_tracker/bug_tracker/settings.py	/^CORS_ORIGIN_WHITELIST = ($/;"	kind:variable	line:132
+DATABASES	../bug_tracker/bug_tracker/settings.py	/^DATABASES = {$/;"	kind:variable	line:80
+DEBUG	../bug_tracker/bug_tracker/settings.py	/^DEBUG = True$/;"	kind:variable	line:28
+Discussion	../bug_tracker/bug_tracker/models.py	/^class Discussion(models.Model):$/;"	kind:class	line:40
+DiscussionRepo	../bug_tracker/bug_tracker/repos/discussion.py	/^class DiscussionRepo:$/;"	kind:class	line:6
+Employee	../bug_tracker/bug_tracker/models.py	/^class Employee(models.Model):$/;"	kind:class	line:31
+EmployeeRepo	../bug_tracker/bug_tracker/repos/employee.py	/^class EmployeeRepo:$/;"	kind:class	line:5
+INSTALLED_APPS	../bug_tracker/bug_tracker/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:37
+LANGUAGE_CODE	../bug_tracker/bug_tracker/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:114
+MIDDLEWARE	../bug_tracker/bug_tracker/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:47
+Migration	../bug_tracker/bug_tracker/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:7
+Migration	../bug_tracker/bug_tracker/migrations/0002_auto_20190830_1349.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+Migration	../bug_tracker/bug_tracker/migrations/0003_auto_20190830_1352.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+ROOT_URLCONF	../bug_tracker/bug_tracker/settings.py	/^ROOT_URLCONF = 'bug_tracker.urls'$/;"	kind:variable	line:56
+Result	../bug_tracker/bug_tracker/models.py	/^class Result(models.Model):$/;"	kind:class	line:52
+ResultRepo	../bug_tracker/bug_tracker/repos/result.py	/^class ResultRepo:$/;"	kind:class	line:5
+SECRET_KEY	../bug_tracker/bug_tracker/settings.py	/^SECRET_KEY = '0h-ho(mav)z#nh%4u(yn*3-%*h7dynwww+da_e7l-)%6$&h+cv'$/;"	kind:variable	line:25
+STATIC_URL	../bug_tracker/bug_tracker/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:128
+Submitter	../bug_tracker/bug_tracker/models.py	/^class Submitter(models.Model):$/;"	kind:class	line:22
+SubmitterRepo	../bug_tracker/bug_tracker/repos/submitter.py	/^class SubmitterRepo:$/;"	kind:class	line:5
+TEMPLATES	../bug_tracker/bug_tracker/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:58
+TIME_ZONE	../bug_tracker/bug_tracker/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:116
+TrackerConfig	../bug_tracker/bug_tracker/apps.py	/^class TrackerConfig(AppConfig):$/;"	kind:class	line:4
+USE_I18N	../bug_tracker/bug_tracker/settings.py	/^USE_I18N = True$/;"	kind:variable	line:118
+USE_L10N	../bug_tracker/bug_tracker/settings.py	/^USE_L10N = True$/;"	kind:variable	line:120
+USE_TZ	../bug_tracker/bug_tracker/settings.py	/^USE_TZ = True$/;"	kind:variable	line:122
+UtilRepo	../bug_tracker/bug_tracker/repos/util.py	/^class UtilRepo:$/;"	kind:class	line:1
+WSGI_APPLICATION	../bug_tracker/bug_tracker/settings.py	/^WSGI_APPLICATION = 'bug_tracker.wsgi.application'$/;"	kind:variable	line:74
+__init__.py	../bug_tracker/bug_tracker/__init__.py	1;"	kind:file	line:1
+__init__.py	../bug_tracker/bug_tracker/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../bug_tracker/bug_tracker/repos/__init__.py	1;"	kind:file	line:1
+__str__	../bug_tracker/bug_tracker/models.py	/^    def __str__(self):$/;"	kind:member	line:18
+__str__	../bug_tracker/bug_tracker/models.py	/^    def __str__(self):$/;"	kind:member	line:27
+__str__	../bug_tracker/bug_tracker/models.py	/^    def __str__(self):$/;"	kind:member	line:36
+__str__	../bug_tracker/bug_tracker/models.py	/^    def __str__(self):$/;"	kind:member	line:48
+__str__	../bug_tracker/bug_tracker/models.py	/^    def __str__(self):$/;"	kind:member	line:56
+admin.py	../bug_tracker/bug_tracker/admin.py	1;"	kind:file	line:1
+application	../bug_tracker/bug_tracker/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../bug_tracker/bug_tracker/apps.py	1;"	kind:file	line:1
+bug	../bug_tracker/bug_tracker/models.py	/^    bug = models.ForeignKey('Bug', on_delete=models.PROTECT, null=False)$/;"	kind:variable	line:42
+bug	../bug_tracker/bug_tracker/views.py	/^def bug(request):$/;"	kind:function	line:30
+bug.py	../bug_tracker/bug_tracker/repos/bug.py	1;"	kind:file	line:1
+bug_id	../bug_tracker/bug_tracker/models.py	/^    bug_id = models.BigAutoField(primary_key=True, null=False)$/;"	kind:variable	line:5
+bugs	../bug_tracker/bug_tracker/views.py	/^def bugs(request):$/;"	kind:function	line:48
+bugs_by_submitter	../bug_tracker/bug_tracker/views.py	/^def bugs_by_submitter(request):$/;"	kind:function	line:53
+completed	../bug_tracker/bug_tracker/models.py	/^    completed = models.BooleanField(default=False)$/;"	kind:variable	line:11
+create_bug	../bug_tracker/bug_tracker/repos/bug.py	/^    def create_bug(bug):$/;"	kind:member	line:19
+create_discussion_by_bug_id	../bug_tracker/bug_tracker/repos/discussion.py	/^    def create_discussion_by_bug_id(discussion):$/;"	kind:member	line:11
+created_at	../bug_tracker/bug_tracker/models.py	/^    created_at = models.DateField($/;"	kind:variable	line:14
+created_at	../bug_tracker/bug_tracker/models.py	/^    created_at = models.DateField(auto_now_add=True, null=False)$/;"	kind:variable	line:45
+delete_bug_by_id	../bug_tracker/bug_tracker/repos/bug.py	/^    def delete_bug_by_id(bug_id):$/;"	kind:member	line:25
+dependencies	../bug_tracker/bug_tracker/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:11
+dependencies	../bug_tracker/bug_tracker/migrations/0002_auto_20190830_1349.py	/^    dependencies = [$/;"	kind:variable	line:8
+dependencies	../bug_tracker/bug_tracker/migrations/0003_auto_20190830_1352.py	/^    dependencies = [$/;"	kind:variable	line:8
+description	../bug_tracker/bug_tracker/models.py	/^    description = models.TextField(null=False)$/;"	kind:variable	line:10
+description	../bug_tracker/bug_tracker/models.py	/^    description = models.TextField(null=True)$/;"	kind:variable	line:54
+discussion	../bug_tracker/bug_tracker/views.py	/^def discussion(request):$/;"	kind:function	line:60
+discussion.py	../bug_tracker/bug_tracker/repos/discussion.py	1;"	kind:file	line:1
+discussion_id	../bug_tracker/bug_tracker/models.py	/^    discussion_id = models.BigAutoField(primary_key=True, null=False)$/;"	kind:variable	line:41
+discussions	../bug_tracker/bug_tracker/views.py	/^def discussions(request):$/;"	kind:function	line:67
+employee	../bug_tracker/bug_tracker/models.py	/^    employee = models.ForeignKey($/;"	kind:variable	line:8
+employee	../bug_tracker/bug_tracker/views.py	/^def employee(request):$/;"	kind:function	line:10
+employee.py	../bug_tracker/bug_tracker/repos/employee.py	1;"	kind:file	line:1
+employees	../bug_tracker/bug_tracker/views.py	/^def employees(request):$/;"	kind:function	line:17
+first_name	../bug_tracker/bug_tracker/models.py	/^    first_name = models.CharField(max_length=200, null=False)$/;"	kind:variable	line:23
+first_name	../bug_tracker/bug_tracker/models.py	/^    first_name = models.CharField(max_length=200, null=False)$/;"	kind:variable	line:32
+get_bug_by_id	../bug_tracker/bug_tracker/repos/bug.py	/^    def get_bug_by_id(bug_id):$/;"	kind:member	line:7
+get_bug_instance_by_id	../bug_tracker/bug_tracker/repos/bug.py	/^    def get_bug_instance_by_id(bug_id):$/;"	kind:member	line:10
+get_bugs	../bug_tracker/bug_tracker/repos/bug.py	/^    def get_bugs():$/;"	kind:member	line:16
+get_bugs_by_submitter	../bug_tracker/bug_tracker/repos/bug.py	/^    def get_bugs_by_submitter(submitter_name):$/;"	kind:member	line:13
+get_discussions_by_bug_id	../bug_tracker/bug_tracker/repos/discussion.py	/^    def get_discussions_by_bug_id(bug_id):$/;"	kind:member	line:8
+get_employee_by_id	../bug_tracker/bug_tracker/repos/employee.py	/^    def get_employee_by_id(employee_id):$/;"	kind:member	line:6
+get_employees	../bug_tracker/bug_tracker/repos/employee.py	/^    def get_employees():$/;"	kind:member	line:9
+get_result_by_id	../bug_tracker/bug_tracker/repos/result.py	/^    def get_result_by_id(result_id):$/;"	kind:member	line:7
+get_submitter_instance_by_username	../bug_tracker/bug_tracker/repos/submitter.py	/^    def get_submitter_instance_by_username(username):$/;"	kind:member	line:6
+initial	../bug_tracker/bug_tracker/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:9
+last_name	../bug_tracker/bug_tracker/models.py	/^    last_name = models.CharField(max_length=200, null=False)$/;"	kind:variable	line:24
+last_name	../bug_tracker/bug_tracker/models.py	/^    last_name = models.CharField(max_length=200, null=False)$/;"	kind:variable	line:33
+main	../bug_tracker/manage.py	/^def main():$/;"	kind:function	line:7
+manage.py	../bug_tracker/manage.py	1;"	kind:file	line:1
+message	../bug_tracker/bug_tracker/models.py	/^    message = models.TextField(null=False)$/;"	kind:variable	line:44
+models.py	../bug_tracker/bug_tracker/models.py	1;"	kind:file	line:1
+modified_at	../bug_tracker/bug_tracker/models.py	/^    modified_at = models.DateField(auto_now=True, null=True)$/;"	kind:variable	line:16
+modified_at	../bug_tracker/bug_tracker/models.py	/^    modified_at = models.DateField(auto_now=True, null=True)$/;"	kind:variable	line:46
+name	../bug_tracker/bug_tracker/apps.py	/^    name = 'bug_tracker'$/;"	kind:variable	line:5
+name	../bug_tracker/bug_tracker/models.py	/^    name = models.CharField(max_length=40, null=False)$/;"	kind:variable	line:53
+operations	../bug_tracker/bug_tracker/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../bug_tracker/bug_tracker/migrations/0002_auto_20190830_1349.py	/^    operations = [$/;"	kind:variable	line:12
+operations	../bug_tracker/bug_tracker/migrations/0003_auto_20190830_1352.py	/^    operations = [$/;"	kind:variable	line:12
+result	../bug_tracker/bug_tracker/models.py	/^    result = models.ForeignKey($/;"	kind:variable	line:12
+result.py	../bug_tracker/bug_tracker/repos/result.py	1;"	kind:file	line:1
+return_if_exists	../bug_tracker/bug_tracker/repos/util.py	/^    def return_if_exists(queryset):$/;"	kind:member	line:2
+sender_username	../bug_tracker/bug_tracker/models.py	/^    sender_username = models.CharField(max_length=40, null=False)$/;"	kind:variable	line:43
+settings.py	../bug_tracker/bug_tracker/settings.py	1;"	kind:file	line:1
+submitter	../bug_tracker/bug_tracker/models.py	/^    submitter = models.ForeignKey($/;"	kind:variable	line:6
+submitter	../bug_tracker/bug_tracker/views.py	/^def submitter(request):$/;"	kind:function	line:23
+submitter.py	../bug_tracker/bug_tracker/repos/submitter.py	1;"	kind:file	line:1
+tests.py	../bug_tracker/bug_tracker/tests.py	1;"	kind:file	line:1
+update_bug_by_employee_id	../bug_tracker/bug_tracker/repos/bug.py	/^    def update_bug_by_employee_id(bug):$/;"	kind:member	line:28
+update_bug_by_result_id	../bug_tracker/bug_tracker/repos/bug.py	/^    def update_bug_by_result_id(bug):$/;"	kind:member	line:32
+urlpatterns	../bug_tracker/bug_tracker/urls.py	/^urlpatterns = [$/;"	kind:variable	line:24
+urls.py	../bug_tracker/bug_tracker/urls.py	1;"	kind:file	line:1
+username	../bug_tracker/bug_tracker/models.py	/^    username = models.CharField(max_length=40, null=False, unique=True)$/;"	kind:variable	line:25
+username	../bug_tracker/bug_tracker/models.py	/^    username = models.CharField(max_length=40, null=False, unique=True)$/;"	kind:variable	line:34
+util.py	../bug_tracker/bug_tracker/repos/util.py	1;"	kind:file	line:1
+version	../bug_tracker/bug_tracker/urls.py	/^version = 'api\/v1'$/;"	kind:variable	line:22
+views.py	../bug_tracker/bug_tracker/views.py	1;"	kind:file	line:1
+wsgi.py	../bug_tracker/bug_tracker/wsgi.py	1;"	kind:file	line:1

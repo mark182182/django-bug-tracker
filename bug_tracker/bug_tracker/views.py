@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
 from bug_tracker.repos.employee import EmployeeRepo
+from bug_tracker.repos.submitter import SubmitterRepo
 from bug_tracker.repos.bug import BugRepo
 from bug_tracker.repos.discussion import DiscussionRepo
 import json
@@ -17,6 +18,13 @@ def employees(request):
     if (request.method == "GET"):
         print(dict(employees=list(EmployeeRepo.get_employees())))
         return JsonResponse(dict(employees=(EmployeeRepo.get_employees())))
+
+
+def submitter(request):
+    if (request.method == "GET"):
+        submitter = SubmitterRepo.get_submitter_instance_by_username(
+            json.loads(request.body)['username'])
+        return JsonResponse(submitter)
 
 
 def bug(request):
@@ -40,6 +48,13 @@ def bug(request):
 def bugs(request):
     if (request.method == "GET"):
         return JsonResponse(dict(bugs=(BugRepo.get_bugs())))
+
+
+def bugs_by_submitter(request):
+    if (request.method == "GET"):
+        bugs = BugRepo.get_bugs_by_submitter(
+            json.loads(request.body)['submitter_username'])
+        return JsonResponse(dict(bugs=(bugs)))
 
 
 def discussion(request):

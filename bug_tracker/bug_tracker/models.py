@@ -16,13 +16,13 @@ class Bug(models.Model):
     modified_at = models.DateField(auto_now=True, null=True)
 
     def __str__(self):
-        return "{0}, {1}".format(self.bug_id, self.submitter_name)
+        return "{0}, {1}".format(self.bug_id, self.submitter)
 
 
 class Submitter(models.Model):
     first_name = models.CharField(max_length=200, null=False)
     last_name = models.CharField(max_length=200, null=False)
-    username = models.CharField(max_length=40, null=False)
+    username = models.CharField(max_length=40, null=False, unique=True)
 
     def __str__(self):
         return self.username
@@ -31,7 +31,7 @@ class Submitter(models.Model):
 class Employee(models.Model):
     first_name = models.CharField(max_length=200, null=False)
     last_name = models.CharField(max_length=200, null=False)
-    username = models.CharField(max_length=40, null=False)
+    username = models.CharField(max_length=40, null=False, unique=True)
 
     def __str__(self):
         return "{0} {1}, {2}".format(self.first_name, self.last_name, self.username)
